@@ -22,6 +22,6 @@ pipelin {
     
   }
 }
-noe {
+node {
   //groovyh script
 }
