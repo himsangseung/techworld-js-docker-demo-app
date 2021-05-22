@@ -8,14 +8,17 @@ pipeline {
       steps{
         echo 'building app'
       }
+    }
     stage("test") {
       steps{
         echo ' testing'
       }
+    }
     stage("deploy") {
       steps{
         echo 'deploying'
-     }  
+     }
+    }
   }
 }
 node {
